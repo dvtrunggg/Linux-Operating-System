@@ -1,0 +1,29 @@
+bai1:
+vi BTTL0401_MSSV_cua_ban.txt
+i ->
+Ho va ten : ..........
+MSSV : ..........
+BTTL : 04
+esc -> :wq
+bai2:
+ls -l -S /etc/* |head -n 10
+cp /etc/ld.so.cache /tmp/testavecvi.txt
+vi /tmp/testavecvi.txt
+esc-> 
+G
+gg
+ctrl-b; ctr-f; ctr-d; ctr-u
+10G
+i->
+##
+## A sample comment
+##
+bấm esc
+dd -> bấm mũi tên lên -> dd -> bấm mũi tên lên -> dd
+:w
+bai3:
+12G
+3yy
+G
+p
+:q!

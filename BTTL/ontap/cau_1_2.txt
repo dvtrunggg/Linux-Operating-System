@@ -1,0 +1,37 @@
+Câu 1.
+Một tiến trình được tạo ra khi chương trình đang thực thi, cần tài nguyên thiết bị (CPU,
+RAM,…). Hai tiến trình không thể trao đổi dữ liệu với nhau do mỗi tiến trình làm việc
+độc lập với nhau.
+2 tiến trình có thể giao tiếp với nhau bằng tín hiệu. vd như dùng lệnh kill để gửi 1 tín
+hiệu đến 1 tiến trình để kết thúc tiền trình đó.
+
+Câu 2:
+cau 1: tao cay thu muc
+mkdir 18VP_Linux
+cd 18VP_Linux
+touch syllabus.pdf
+mkdir BTTL
+mkdir BTTL/BTTL0{1..5}
+mkdir BTTH
+touch BTTH/BTTH01/18126035_btth.sh
+mkdir BTTH/BTTH0{1..5}
+touch BTTH/BTTH01/18126035_btth.sh
+touch DIEM/diem{giuaky,cuoiky,tonghop}.txt
+mkdir DETHI
+touch dethicuoiky.txt
+
+cau 2:
+touch BTTL/BTTL0{1..5}/18126035_bttl.sh
+
+cau 3:
+cp BTTH/BTTH01/18126035_btth.sh BTTH/BTTH02
+cp BTTH/BTTH01/18126035_btth.sh BTTH/BTTH03
+cp BTTH/BTTH01/18126035_btth.sh BTTH/BTTH04
+cp BTTH/BTTH01/18126035_btth.sh BTTH/BTTH05
+cau 4:
+chmod 700 DETHI/dethicuoiky.txt
+cau 5:
+cd DIEM
+a) grep {Anh,Trang} diemtonghop.txt
+b) grep Long diemtonghop.txt | cut -f5
+c) cut -f1-4,6 diemtonghop.txt > diemcuoiky.txt

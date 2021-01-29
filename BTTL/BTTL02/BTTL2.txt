@@ -1,0 +1,36 @@
+Bài 1:
+$ cat data.txt
+$ grep 18126035 data.txt
+$ grep -v 18126035 data.txt
+$ sort -nk 1 data.txt; $ sort -nrk 1 data.txt
+$ sort -nk 2 data.txt
+$ sort -k 3 data.txt
+$ wc data.txt
+$ head -10 data.txt
+$ cut -f -4 data.txt
+$ touch cuoiky.txt; $ cut -f 1,2,3,4,9 data.txt >> cuoiky.txt
+$ gzip data.txt; $ gunzip data.txt.gz 
+$ split -23 data.txt
+$ touch test.txt; test.txt >> xaa
+$ mkdir test; $ tar cvzf rep.tgz test
+$ tar tvzf rep.tgz 
+$ tar xvzf rep.tgz 
+$ du -h
+$ df
+$ quota -v
+Bài 2:
+$ sudo useradd -m -c "Tran Van Test" -u 2001 test; $ sudo passwd test
+$ passwd
+$ sudo passwd test
+$ sudo groupadd testgroup
+$ groupadd testgroup test
+$ usermod -c trungg
+
+
+
+
+
+
+
+
+

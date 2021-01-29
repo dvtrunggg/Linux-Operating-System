@@ -1,0 +1,12 @@
+mkdir BTTL031_18126035
+cd BTTL031_18126035/
+mkdir shapes
+cd shapes
+touch {red,green,blue,black,white,gray}{rectangle,triangle,square,diamond,heart,pentagon, hexagon}.txt
+ls gr*
+ls *gle.txt *gon.txt
+ls [!(bl)]*
+ls *[!(le)].txt
+ls red* blue* green*
+ls gray*gon.txt
+ls [!gray]*[!gon]

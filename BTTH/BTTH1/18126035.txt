@@ -1,0 +1,24 @@
+cau 1:
+$ whoami
+$ ls
+$ ls -l
+$ pwd
+cau 2
+$ mkdir BaiTapLinux
+$ mkdir BTTL
+$ mkdir BTTH
+$ pwd
+$ cd BaiTapLinux
+$ mv BTTH BaiTapLinux/
+$ mv BTTL BaiTapLinux/
+$ cd BaiTapLinux/BTTH
+$ touch template.txt
+$ cat
+$ mkdir BTTH01
+$ cp template.txt BTTH01
+$ mv template.txt 18126035_BTTH01.txt
+
+
+
+
+

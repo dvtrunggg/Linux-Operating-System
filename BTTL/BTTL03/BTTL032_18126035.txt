@@ -1,0 +1,16 @@
+mkdir BTTL032_18126035
+touch test.txt
+chmod 770 BTTL032_18126035/
+ls -l BTTL032_18126035/
+chmod 777 BTTL032_18126035/
+ls -l BTTL032_18126035/
+chmod u=rw,g=r,o= test.txt
+ls -l test.txt 
+chmod u=rwx,g=rw,o=r test.txt 
+ls -l test.txt 
+umask -S u=rw,g=r,o=r 
+touch 1.txt
+ls -l 1.txt
+umask 027 
+mkdir a
+ls -l

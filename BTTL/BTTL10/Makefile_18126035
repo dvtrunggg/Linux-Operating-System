@@ -1,0 +1,19 @@
+# My Makefile
+
+exe1 : prog1.o f1.o f2.o f3.o
+	gcc prog1.o f1.o f2.o f3.o -o $@
+
+
+exe2 : prog2.o f1.o f2.o f4.o
+	gcc prog2.o f1.o f2.o f4.o -o $@
+
+
+all : exe1 exe2 
+
+clean : rm *.o exe1 exe2
+
+depend :
+	makedepend prog1.c prog2.c f1.c f2.c f3.c f4.c
+
+%.o : %.c
+	gcc -Wall -c $*.c 

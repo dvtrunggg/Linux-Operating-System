@@ -1,0 +1,26 @@
+cau 1
+$ touch newfile
+$ ls -l newfile 
+$ chmod u+r=w newfile
+$ chmod g+r+w newfile 
+$ chmod o+r newfile 
+$ sudo chown duc newfile 
+[sudo] password for trungdinhviet1999: 
+$ ls -l newfile 
+$ ls newfile
+ls: cannot access 'newfile': No such file or directory
+$ sudo chgrp trungg newfile 
+trungdinhviet1999@ubuntu:~$ ls -l newfile 
+--w-rw-r-- 1 trungg trungg 0 Jun 15 00:57 newfile
+cau 2
+$ mkdir newfolder
+$ chmod u+r+w newfolder | chmod g+r+w newfolder | chmod o+r newfolder
+$ sudo chown trungg newfolder/
+$ rmdir newfolder/
+$ ls -l newfolder
+ls: cannot access 'newfolder': No such file or directory
+$ rm -r newfile 
+rm: remove write-protected regular empty file 'newfile'? y
+$ sudo chgrp trungg newfolder
+
+ 
